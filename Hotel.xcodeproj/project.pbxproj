@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3EC475C0222BB85B0089EB32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC475BF222BB85B0089EB32 /* AppDelegate.swift */; };
-		3EC475C2222BB85B0089EB32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC475C1222BB85B0089EB32 /* ViewController.swift */; };
 		3EC475C5222BB85B0089EB32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC475C3222BB85B0089EB32 /* Main.storyboard */; };
 		3EC475C7222BB8740089EB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC475C6222BB8740089EB32 /* Assets.xcassets */; };
 		3EC475CA222BB8740089EB32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC475C8222BB8740089EB32 /* LaunchScreen.storyboard */; };
+		3EC475D3222BBE8A0089EB32 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC475D2222BBE8A0089EB32 /* Registration.swift */; };
+		3EC475D5222BC0B10089EB32 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC475D4222BC0B10089EB32 /* RoomType.swift */; };
+		3EC475D7222BC3D20089EB32 /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC475D6222BC3D20089EB32 /* RegistrationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EC475BC222BB85B0089EB32 /* Hotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC475BF222BB85B0089EB32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EC475C1222BB85B0089EB32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EC475C4222BB85B0089EB32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EC475C6222BB8740089EB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC475C9222BB8740089EB32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC475CB222BB8740089EB32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC475D2222BBE8A0089EB32 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		3EC475D4222BC0B10089EB32 /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
+		3EC475D6222BC3D20089EB32 /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		3EC475BE222BB85B0089EB32 /* Hotel */ = {
 			isa = PBXGroup;
 			children = (
+				3EC475D1222BBE3D0089EB32 /* Models */,
+				3EC475D8222BC3DB0089EB32 /* ViewControllers */,
 				3EC475BF222BB85B0089EB32 /* AppDelegate.swift */,
-				3EC475C1222BB85B0089EB32 /* ViewController.swift */,
 				3EC475C3222BB85B0089EB32 /* Main.storyboard */,
 				3EC475C6222BB8740089EB32 /* Assets.xcassets */,
 				3EC475C8222BB8740089EB32 /* LaunchScreen.storyboard */,
 				3EC475CB222BB8740089EB32 /* Info.plist */,
 			);
 			path = Hotel;
+			sourceTree = "<group>";
+		};
+		3EC475D1222BBE3D0089EB32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EC475D2222BBE8A0089EB32 /* Registration.swift */,
+				3EC475D4222BC0B10089EB32 /* RoomType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EC475D8222BC3DB0089EB32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EC475D6222BC3D20089EB32 /* RegistrationTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC475C2222BB85B0089EB32 /* ViewController.swift in Sources */,
+				3EC475D3222BBE8A0089EB32 /* Registration.swift in Sources */,
+				3EC475D7222BC3D20089EB32 /* RegistrationTableViewController.swift in Sources */,
 				3EC475C0222BB85B0089EB32 /* AppDelegate.swift in Sources */,
+				3EC475D5222BC0B10089EB32 /* RoomType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
